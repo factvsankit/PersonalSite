@@ -1,0 +1,43 @@
+{
+  "name": "gatsby-starter-default",
+  "description": "Gatsby default starter",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "crypto-js": "^3.1.9-1",
+    "eslint-plugin-react": "^7.7.0",
+    "file-system": "^2.2.2",
+    "fs": "0.0.1-security",
+    "gatsby": "^1.9.238",
+    "gatsby-link": "^1.6.39",
+    "gatsby-plugin-react-helmet": "^2.0.8",
+    "gatsby-source-filesystem": "^1.5.27",
+    "gatsby-source-wordpress": "^2.0.69",
+    "gravity-forms-api": "0.0.9",
+    "grid-styled": "^3.2.1",
+    "net": "^1.0.2",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^5.0.7",
+    "react-signature": "^1.2.4",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2",
+    "request-promise-any": "^1.0.5",
+    "styled-system": "^2.2.1",
+    "tls": "0.0.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.7",
+    "prettier": "^1.11.1"
+  }
+}
