@@ -17,7 +17,7 @@ const BannerSection = props => {
         height: '400px',
         position: 'relative',
         backgroundColor:'#1fb8a6',
-        backgroundImage:'url('+`${BackgroundUIImage}`+')',
+        // backgroundImage:'url('+`${BackgroundUIImage}`+')',
         backgroundPosition: 'top center',
         padding: '100px'
       }}>
