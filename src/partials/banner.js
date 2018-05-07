@@ -16,7 +16,7 @@ const BannerSection = props => {
       <Flex className="banner" style={{
         height: '400px',
         position: 'relative',
-        backgroundColor:'#1fb8a6',
+        backgroundColor:'#6da4a9',
         // backgroundImage:'url('+`${BackgroundUIImage}`+')',
         backgroundPosition: 'top center',
         padding: '100px'

@@ -39,12 +39,12 @@ const TemplateWrapper = ({ children }) => (
         <Container>
           <Flex alignItems="center">
             <Box width={5 / 12}>
-              <Text textAlign="right" fontSize={14} style={{ textTransform: 'uppercase' }} >
+              <Text textAlign="right" fontSize={14} style={{ textTransform: 'uppercase' }} color="theme_ffffff" >
                 <ul className="mainNav">
                   <li>
                     <Link exact to="./"
                     activeStyle={{
-                      color: '#ff0000'
+                      color: '#183d50'
                     }}
                   >Home</Link>
                   </li>
@@ -58,12 +58,15 @@ const TemplateWrapper = ({ children }) => (
               </Text>
             </Box>
             <Box width={2 / 12}>
-              <Text color="theme_1fb8a6" textAlign="center" fontSize={21}>
-                <h1>AS</h1>
+              <Text textAlign="center" fontSize={21}>
+                <h1 style={{
+                  color: '#183d50',
+                  textShadow: '0 0 3px rgba(255,255,255,0.5)',
+                }}>AS</h1>
               </Text>
             </Box>
             <Box width={5 / 12} >
-              <Text textAlign="left" fontSize={14} style={{ textTransform: 'uppercase' }} >
+              <Text textAlign="left" fontSize={14} style={{ textTransform: 'uppercase' }} color="theme_ffffff" >
                 <ul className="mainNav">
                   <li>
                     <a href="/works">Works</a>

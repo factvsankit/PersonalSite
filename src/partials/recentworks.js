@@ -15,17 +15,13 @@ const RecentWorks = props => {
   const content = props.content
 
   return (
-      <Flex className="section recent-works" bg="#1fb8a6">
+      <Flex className="section recent-works">
           <Container>
           <Box width={'100%'}>
             <div className="section-title">
-              <h1 style={{
-                color:'#fff'
-              }}>Recent Works</h1>
+              <h1>Recent Works</h1>
             </div>
-            <div className="section-description" style={{
-              color:'#fff'
-            }}>
+            <div className="section-description">
               <p>
                 Below are the series of my works which I was
                 a part of. All the projects listed below are accomplished
