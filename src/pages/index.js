@@ -6,6 +6,7 @@ import { ThemeProvider } from 'styled-components'
 import theme from '../utils/theme'
 import BannerSection from '../partials/banner'
 import AboutSection from '../partials/about'
+import RecentWorks from '../partials/recentworks'
 import BannerImage from './assets/banner.jpg'
 
 const BannerContent = {
@@ -19,6 +20,7 @@ const IndexPage = () => {
     <div>
       <BannerSection content={BannerContent} />
       <AboutSection />
+      <RecentWorks />
     </div>
   )
 }

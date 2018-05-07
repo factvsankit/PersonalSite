@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from "gatsby-link"
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
@@ -34,33 +35,46 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <ThemeProvider theme={theme}>
-      <Header position="absolute" width={1} className="header" pt={15}>
+      <Header width={1} className="header" pt={15}>
         <Container>
           <Flex alignItems="center">
-            <Box width={2 / 12}>
-              <Text color="theme_bd9d3f" fontSize={40}>AS</Text>
-            </Box>
-            <Box width={8 / 12}>
-              <Text color="theme_ffffff" textAlign="center">
+            <Box width={5 / 12}>
+              <Text textAlign="right" fontSize={14} style={{ textTransform: 'uppercase' }} >
                 <ul className="mainNav">
                   <li>
-                    <a href="/work">Work</a>
+                    <Link exact to="./"
+                    activeStyle={{
+                      color: '#ff0000'
+                    }}
+                  >Home</Link>
                   </li>
                   <li>
-                    <a href="/working-model">Working Model</a>
+                    <a href="/about">About</a>
                   </li>
                   <li>
-                    <a href="/service">Service</a>
+                    <a href="/services">Services</a>
+                  </li>
+                </ul>
+              </Text>
+            </Box>
+            <Box width={2 / 12}>
+              <Text color="theme_1fb8a6" textAlign="center" fontSize={21}>
+                <h1>AS</h1>
+              </Text>
+            </Box>
+            <Box width={5 / 12} >
+              <Text textAlign="left" fontSize={14} style={{ textTransform: 'uppercase' }} >
+                <ul className="mainNav">
+                  <li>
+                    <a href="/works">Works</a>
+                  </li>
+                  <li>
+                    <a href="/working-model">Model</a>
                   </li>
                   <li>
                     <a href="/contact">Contact</a>
                   </li>
                 </ul>
-              </Text>
-            </Box>
-            <Box width={2 / 12} >
-              <Text color="theme_ffffff">
-                <a href="" className="headerCta">Get In touch</a>
               </Text>
             </Box>
           </Flex>

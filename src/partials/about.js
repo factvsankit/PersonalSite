@@ -21,18 +21,6 @@ const AboutSection = props => {
           <div className="mytable">
             <div className="table-cell va-middle">
               <Container>
-                <div  className="section-title">
-                  <h1>
-                    About Me
-                    <span> About Me</span>
-                  </h1>
-                </div>
-                <div className="section-description">
-                  <p>
-                    Hello, I am Ankit Sigdel, from the beautiful country of 'Himalayas', Nepal.
-                    I am a full time Front End Freelancer, with the extensive knowledge of Graphics Designing and Backend Development.
-                  </p>
-                </div>
                 <Flex className="about-overview" ml={-15} mr={-15}>
                   <Box width={1/3} pl={15} pr={15}>
                     <div className="ao-feature">
@@ -47,7 +35,7 @@ const AboutSection = props => {
                   <Box width={1/3} pl={15} pr={15}>
                     <div className="ao-feature">
                         <img src={FDIcon} />
-                        <h2>FRONTEND DEVELOPMENT</h2>
+                        <h2>FRONTEND <br/>DEVELOPMENT</h2>
                         <p>
                           I possess wild compassion of developing Pixel Perfect front end development. I write efficient and precise code, meet all the standard of front end programming.
                         </p>
@@ -56,7 +44,7 @@ const AboutSection = props => {
                   <Box width={1/3} pl={15} pr={15}>
                     <div className="ao-feature">
                         <img src={BDIcon} />
-                        <h2>BACKEND DEVELOPMENT</h2>
+                        <h2>BACKEND <br/>DEVELOPMENT</h2>
                         <p>
                           I have got extensive knowledge of backend development, whether it be a Built in CMS like Wordpress or building bespoke CMS using PHP and its framework.
                         </p>
