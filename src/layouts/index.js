@@ -10,6 +10,7 @@ import { position, width, space, color,bg, textAlign, border, borderRadius, font
 import './index.scss'
 import Container from '../components/container'
 import theme from '../utils/theme'
+import Logo from '../pages/assets/logo.png'
 
 const Header = styled.div`
   ${position}
@@ -63,7 +64,11 @@ const TemplateWrapper = ({ children }) => (
                   color: '#183d50',
                   // textShadow: '0 0 3px rgba(255,255,255,0.5)',
                 }}>
-                  <Link to="./">AS</Link>
+                  <Link to="./">
+                    <img src={Logo} style={{
+                      maxWidth: `64px`
+                    }}/>
+                  </Link>
                 </h1>
               </Text>
             </Box>
