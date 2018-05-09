@@ -45,7 +45,7 @@ const TemplateWrapper = ({ children }) => (
                   <li>
                     <Link exact to="./"
                     activeStyle={{
-                      color: '#183d50'
+                      color: '#a6aa54'
                     }}
                   >Home</Link>
                   </li>
