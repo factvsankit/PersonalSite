@@ -1,6 +1,9 @@
 var plugins = [{
       plugin: require('/Users/ankit/projects/learn/gatsby/psGatsby/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/ankit/projects/learn/gatsby/psGatsby/node_modules/gatsby-plugin-favicon/gatsby-ssr'),
+      options: {"plugins":[],"logo":"./src/pages/assets/logo.png","injectHTML":true,"icons":{"android":true,"appleIcon":true,"appleStartup":true,"coast":false,"favicons":true,"firefox":true,"twitter":false,"yandex":false,"windows":false}},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
