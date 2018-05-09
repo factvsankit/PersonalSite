@@ -13,7 +13,7 @@ class RecentWorkSlider extends React.Component {
       autoplay: true,
       arrows: false,
       infinite: true,
-      speed: 1500,
+      speed: 1200,
       slidesToShow: 1,
       slidesToScroll: 1
     };

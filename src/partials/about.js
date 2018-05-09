@@ -21,6 +21,16 @@ const AboutSection = props => {
           <div className="mytable">
             <div className="table-cell va-middle">
               <Container>
+                <div className="section-title">
+                  <h1>What I Do</h1>
+                </div>
+                <div className="section-description">
+                  <p>
+                    I provide services at various level, such as, Web Development,
+                    Business Consulting and Connect Client to a group of potential
+                    freelancer in different field of expertise.
+                  </p>
+                </div>
                 <Flex className="about-overview" ml={-15} mr={-15}>
                   <Box width={1/3} pl={15} pr={15}>
                     <div className="ao-feature">

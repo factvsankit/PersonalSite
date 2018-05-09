@@ -133,7 +133,7 @@ h1,h2,h3,h4,h5,h6{
   transform: translateX(-50%)
 }
 .section .section-description{
-  max-width: 800px;
+  max-width: 700px;
   margin: 0 auto 40px;
   text-align: center;
 }
@@ -192,4 +192,31 @@ h1,h2,h3,h4,h5,h6{
 }
 .slick-dots li button:before{
   display: none !important;
+}
+.testimonials{
+  //background-color: #c5dce0;
+  .slick-track{
+    margin: 0 -10px;
+    .slick-slide{
+      padding: 0 10px;
+      .tSlide{
+        text-align: center;
+        background-color: #4f5c5e;
+        padding: 60px 25px;
+        min-height: 200px;
+        font-size: 14px;
+        p{
+          color: #fff;
+        }
+        span{
+          display: block;
+          margin-top: 14px;
+          color: #ccc;
+        }
+        em{
+          color:#fff;
+        }
+      }
+    }
+  }
 }

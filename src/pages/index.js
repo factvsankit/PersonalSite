@@ -7,6 +7,8 @@ import theme from '../utils/theme'
 import BannerSection from '../partials/banner'
 import AboutSection from '../partials/about'
 import RecentWorks from '../partials/recentworks'
+import Testimonials from '../partials/testimonials'
+
 import BannerImage from './assets/banner.jpg'
 
 const BannerContent = {
@@ -21,6 +23,7 @@ const IndexPage = () => {
       <BannerSection content={BannerContent} />
       <AboutSection />
       <RecentWorks />
+      <Testimonials />
     </div>
   )
 }
