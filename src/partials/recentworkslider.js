@@ -8,9 +8,12 @@ import Work3 from '../pages/assets/work3.png'
 class RecentWorkSlider extends React.Component {
   render() {
     var settings = {
+      fade: true,
       dots: true,
+      autoplay: true,
+      arrows: false,
       infinite: true,
-      speed: 500,
+      speed: 1500,
       slidesToShow: 1,
       slidesToScroll: 1
     };

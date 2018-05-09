@@ -19,7 +19,11 @@ module.exports = {
       resolve: 'gatsby-plugin-postcss-sass',
       options: {
         postCssPlugins: [
-          require('postcss-import')()
+          require('postcss-import')(),
+          // require('autoprefixer')(),
+          // require('postcss-loader')(),
+          // require('postcss')(),
+          // require('css-loader')
         ]
       }
     },
