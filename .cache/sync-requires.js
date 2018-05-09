@@ -16,12 +16,8 @@ exports.components = {
 exports.json = {
   "layout-index.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "dev-404-page.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/dev-404-page.json"),
-  "layout-index.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "404.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/404.json"),
-  "layout-index.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "index.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/index.json"),
-  "layout-index.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "page-2.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/page-2.json"),
-  "layout-index.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "404-html.json": require("/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/404-html.json")
 }

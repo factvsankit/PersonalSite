@@ -6,10 +6,8 @@ import {
   height
 } from 'styled-system'
 import { Flex, Box } from 'grid-styled'
+import RecentWorkSlider from './recentworkslider'
 import Container from '../components/container'
-import Work1 from '../pages/assets/work1.png'
-import Work2 from '../pages/assets/work2.png'
-import Work3 from '../pages/assets/work3.png'
 
 const RecentWorks = props => {
   const content = props.content
@@ -31,7 +29,7 @@ const RecentWorks = props => {
               </p>
             </div>
             <div className="workCarousel">
-              <img src={Work1} />
+              <RecentWorkSlider />
             </div>
             </Box>
           </Container>

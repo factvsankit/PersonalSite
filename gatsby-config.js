@@ -4,15 +4,24 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    // {
+    //   resolve: 'gatsby-source-wordpress',
+    //   options: {
+    //     baseUrl: 'manage.netprophets.com.au',
+    //     protocol: 'https',
+    //     hostingWPCOM: false,
+    //     verboseOutput: true,
+    //     useACF: true,
+    //   },
+    // },
+    'gatsby-plugin-purify-css',
     {
-      resolve: 'gatsby-source-wordpress',
+      resolve: 'gatsby-plugin-postcss-sass',
       options: {
-        baseUrl: 'manage.netprophets.com.au',
-        protocol: 'https',
-        hostingWPCOM: false,
-        verboseOutput: true,
-        useACF: true,
-      },
+        postCssPlugins: [
+          require('postcss-import')()
+        ]
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,

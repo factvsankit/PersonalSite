@@ -11,13 +11,9 @@ exports.components = {
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/dev-404-page.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/404.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/index.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "page-2.json": require("gatsby-module-loader?name=path---page-2!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/page-2.json"),
-  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/layout-index.json"),
   "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/ankit/projects/learn/gatsby/psGatsby/.cache/json/404-html.json")
 }
 

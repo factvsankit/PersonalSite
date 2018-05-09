@@ -7,7 +7,7 @@ import { ThemeProvider } from 'styled-components'
 import { Flex, Box } from 'grid-styled'
 import { position, width, space, color,bg, textAlign, border, borderRadius, fontSize } from 'styled-system'
 
-import './index.css'
+import './index.scss'
 import Container from '../components/container'
 import theme from '../utils/theme'
 
@@ -61,8 +61,10 @@ const TemplateWrapper = ({ children }) => (
               <Text textAlign="center" fontSize={21}>
                 <h1 style={{
                   color: '#183d50',
-                  textShadow: '0 0 3px rgba(255,255,255,0.5)',
-                }}>AS</h1>
+                  // textShadow: '0 0 3px rgba(255,255,255,0.5)',
+                }}>
+                  <Link to="./">AS</Link>
+                </h1>
               </Text>
             </Box>
             <Box width={5 / 12} >
