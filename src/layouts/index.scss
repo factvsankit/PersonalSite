@@ -70,6 +70,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .banner{
   position: relative;
+  background-color: #4f5c5e;
 }
 .bannerContent{
   /* position: relative; */
@@ -124,7 +125,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .section .section-title h1:after{
   width: 50px;
-  background-color: #9eb3b8;
+  background-color: #a6aa54;
   height: 2px;
   bottom: -7px;
   content:"";
@@ -211,7 +212,7 @@ h1,h2,h3,h4,h5,h6{
         span{
           display: block;
           margin-top: 14px;
-          color: #ccc;
+          color: #a6aa54;
         }
         em{
           color:#fff;
