@@ -60,16 +60,11 @@ const TemplateWrapper = ({ children }) => (
             </Box>
             <Box width={2 / 12}>
               <Text textAlign="center" fontSize={21}>
-                <h1 style={{
-                  color: '#183d50',
-                  // textShadow: '0 0 3px rgba(255,255,255,0.5)',
-                }}>
-                  <Link to="./">
-                    <img src={Logo} style={{
-                      maxWidth: `64px`
-                    }}/>
-                  </Link>
-                </h1>
+                <Link to="./">
+                  <img src={Logo} style={{
+                    maxWidth: `64px`
+                  }}/>
+                </Link>
               </Text>
             </Box>
             <Box width={5 / 12} >
