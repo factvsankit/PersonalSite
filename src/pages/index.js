@@ -9,6 +9,7 @@ import AboutSection from '../partials/about'
 import RecentWorks from '../partials/recentworks'
 import Testimonials from '../partials/testimonials'
 import Footer from '../partials/footer'
+import CopyRight from '../partials/copyright'
 
 import BannerImage from './assets/banner.jpg'
 
@@ -26,6 +27,7 @@ const IndexPage = () => {
       <RecentWorks />
       <Testimonials />
       <Footer />
+      <CopyRight />
     </div>
   )
 }

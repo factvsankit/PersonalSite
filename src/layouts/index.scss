@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|Slabo+27px');
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 *,
 *:before,
 *:after{
@@ -230,9 +231,6 @@ h1,h2,h3,h4,h5,h6{
   }
 }
 
-.footer{
-  background-color: #222;
-}
 .contact-form{
   max-width: 650px;
   margin: 0 auto;
@@ -283,4 +281,15 @@ h1,h2,h3,h4,h5,h6{
       }
     }
   }
+}
+.footer{
+  background-color: #222;
+  .furtherFooter{
+    background-color: #141414;
+  }
+}
+.copyright{
+  background-color: #141414;
+  text-align: center;
+  padding: 25px 0;
 }

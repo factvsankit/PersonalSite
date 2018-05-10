@@ -25,6 +25,7 @@
     "postcss": "^6.0.22",
     "postcss-import": "^11.1.0",
     "postcss-loader": "^2.1.5",
+    "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0",
     "react-redux": "^5.0.7",
     "react-signature": "^1.2.4",
